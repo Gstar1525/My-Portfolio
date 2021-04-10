@@ -13,7 +13,7 @@ function App() {
       <section  id="about-me" style={{ height: "100vh", color:"white" }}>
         <AboutMe></AboutMe>
       </section>
-      <section id="work" style={{ color:"white", backgroundColor:"greenyellow"}}>
+      <section id="work" style={{ color:"white"}}>
         <Work></Work>
       </section>
       <section id="experience" style={{ height: "100vh", backgroundColor: "black", color:"white" }}>

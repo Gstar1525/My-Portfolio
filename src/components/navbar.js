@@ -5,15 +5,14 @@ import { Link } from 'react-scroll'
 class Navbar extends Component {
 
     styles = {
-        color: "white",
-        
+        color: "white", 
         padding: "4vh",
         cursor:"pointer",
     }
 
     render() {
         return (
-            <Nav style={{ position: "sticky", top: "4vh"}} className="justify-content-end mr-4 mt-4" activeKey="/home">
+            <Nav style={{ position: "sticky", top: "4vh", zIndex:'1000'}} className="justify-content-end mr-4 mt-4" activeKey="/home">
                 <Nav.Item>
                     <Link activeClass="active" to="work" spy={true} smooth={true} duration={500} style={this.styles}>Work</Link>
                 </Nav.Item>
