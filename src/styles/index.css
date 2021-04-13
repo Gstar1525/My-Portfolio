@@ -2,3 +2,10 @@ body{
     background-color: #0a192f;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+li{
+    padding-bottom: 1.5%;
+    font-size: 120%;
+}
+ul{
+    color: #64ffda;
+}

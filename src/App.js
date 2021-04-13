@@ -1,28 +1,28 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import AboutMe from './routes/aboutme';
 import Work from './routes/work';
 import Contact from './routes/contact';
 import Experience from './routes/experience';
-import Education from './routes/education';
+import Home from './routes/home';
+import About from './routes/about';
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
       <section  id="about-me" style={{ height: "100vh", color:"white" }}>
-        <AboutMe></AboutMe>
+        <Home></Home>
+      </section>
+      <section id="about" style={{ color:"white" }}>
+        <About ></About>
       </section>
       <section id="work" style={{ color:"white"}}>
         <Work></Work>
       </section>
-      <section id="experience" style={{ height: "100vh", backgroundColor: "black", color:"white" }}>
+      <section id="experience" style={{ color:"white" }}>
         <Experience></Experience>
       </section>
-      <section id="education" style={{ height: "100vh", color:"white" }}>
-        <Education></Education>
-      </section>
-      <section id="contact" style={{ height: "30vh", backgroundColor: "black", color:"white" }}>
+      <section id="contact" style={{ height: "30vh", color:"white" }}>
         <Contact></Contact>
       </section>
     </React.Fragment>

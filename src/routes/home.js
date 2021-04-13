@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutMe() {
+function Home() {
     return (
         <div className="Intro" style={{ marginInline: "25vh", marginTop: "10vh" }} >
             <h5 style={{ color: "#64ffda" }}>
@@ -23,4 +23,4 @@ function AboutMe() {
     );
 }
 
-export default AboutMe;
+export default Home;

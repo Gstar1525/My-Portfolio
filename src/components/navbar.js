@@ -14,13 +14,13 @@ class Navbar extends Component {
         return (
             <Nav style={{ position: "sticky", top: "4vh", zIndex:'1000'}} className="justify-content-end mr-4 mt-4" activeKey="/home">
                 <Nav.Item>
+                    <Link  activeClass="active" to="about" spy={true} smooth={true} duration={500} style={this.styles}>About Me</Link>
+                </Nav.Item>
+                <Nav.Item>
                     <Link activeClass="active" to="work" spy={true} smooth={true} duration={500} style={this.styles}>Work</Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Link  activeClass="active" to="experience" spy={true} smooth={true} duration={500} style={this.styles}>Experience</Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Link  activeClass="active" to="education" spy={true} smooth={true} duration={500} style={this.styles}>Education</Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Link  activeClass="active" to="contact" spy={true} smooth={true} duration={500} style={this.styles}>Contact</Link>
