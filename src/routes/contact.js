@@ -1,10 +1,12 @@
 import React from 'react';
+import SocialFooter from '../components/socialFooter';
+import { Box } from '@material-ui/core';
 
 function Contact(){
     return (
-        <h1>
-            Contact
-        </h1>
+        <Box textAlign='center' marginX="50px">
+            <SocialFooter/>
+        </Box>
     );
 }
 

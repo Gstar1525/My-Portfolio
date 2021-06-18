@@ -2,6 +2,7 @@ import React from 'react';
 import Ctn from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import "../styles/about.css"
 import {
     Timeline,
     Container,
@@ -25,9 +26,9 @@ function About(){
 
     return(
         <Ctn>
-            <Row>
-                <Col sm={8}>
-                    <p style={{fontSize:'120%' ,lineHeight:2 }}>
+            <Row xs={10}>
+                <Col xs={11} sm={8}>
+                    <p style={{fontSize:'2.3vh' ,lineHeight:2 }}>
                         Hi! My name is Gourav and I love building apps. My spcialization is in <b style={{ color:'#64ffda' }}>Android App Development</b> and recently started exploring <b style={{ color:'#64ffda' }}>Cross platform Frameworks</b> such as React-Native and Flutter. Currently I am doing my Graduation in Computer Engineering and working on side projects. So far i have worked as <b style={{ color:'#64ffda' }}>Intern</b> in two startups at a <b style={{ color:'#64ffda' }}>Training and Placment Agency</b> and an <b style={{ color:'#64ffda' }}>Investment Comopany</b>, I also have done <b style={{ color:'#64ffda' }}>freelancing</b> before for 4 to 5 clients.
                     </p> 
                     <br/>
@@ -35,7 +36,7 @@ function About(){
                         Here are few of my specialities :
                     </p>
                         <Ctn>
-                            <Row>
+                            <Row xs={2}>
                             <Col item sm={3}>
                                 <ul>
                                     <li>
@@ -57,7 +58,7 @@ function About(){
                                 </ul>
 
                                 </Col>
-                                <Col item sm={3}>
+                                <Col item  sm={3}>
                                 <ul>
                                     <li>
                                         Android SDK
@@ -80,7 +81,7 @@ function About(){
                             </Row>
                         </Ctn>
                 </Col>
-                <Col sm={4}>
+                <Col style={{ paddingBlock:'5vw' }} xs={10} sm={4}>
                     <Timeline theme={customTheme} dateFormat='ll'>
                         <Container>
                             <YearContent startDate='2019/09' currentYear />
