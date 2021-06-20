@@ -1,33 +1,40 @@
 .social-container {
-    padding: 25px 50px;
+  padding: 25px 50px;
 }
 a.social {
-    margin-block:  5rem;
-    transition: transform 250ms;
-    display: inline-block;
+  margin-block: 5rem;
+  transition: transform 250ms;
+  display: inline-block;
 }
 
 a.social:hover {
-    transform: translateY(-2px);
-    color: white;
+  transform: translateY(-2px);
+  color: white;
 }
 
 a.github {
-    color: #64ffda;
+  color: #64ffda;
 }
 
 a.Envelope {
-    color: #64ffda;
+  color: #64ffda;
 }
-  
+
 a.LinkedIn {
-    color: #64ffda;
+  color: #64ffda;
 }
-  
+
 a.twitter {
-    color: #64ffda;
+  color: #64ffda;
 }
-  
+
 a.instagram {
-    color: #64ffda;
+  color: #64ffda;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }

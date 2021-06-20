@@ -1,3 +1,11 @@
-li{
-    font-size: 2vh !important;
+li {
+  font-size: 2vh !important;
+}
+
+b {
+  color: #0062cc;
+}
+
+.aboutme {
+  line-height: 200%;
 }

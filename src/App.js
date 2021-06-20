@@ -34,10 +34,11 @@ function App() {
           <Experience></Experience>
         </section>
       </Box>
-
-      <section id="contact" style={{ color: "white" }}>
-        <Contact></Contact>
-      </section>
+      <Box id="contact" style={{ paddingBlock: "20vh" }}>
+        <section style={{ color: "white" }}>
+          <Contact></Contact>
+        </section>
+      </Box>
     </React.Fragment>
   );
 }

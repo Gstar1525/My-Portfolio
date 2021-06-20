@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row } from "react-bootstrap";
+import "../styles/socialFooter.css"
 
 
 export default function SocialFooter(){
