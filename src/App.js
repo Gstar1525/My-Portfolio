@@ -13,7 +13,7 @@ function App() {
     <React.Fragment>
       <CustomNavbar />
 
-      <section id="intro" style={{ height: "55vh", color: "white" }}>
+      <section id="intro" style={{ height: "60vh", color: "white" }}>
         <Home></Home>
       </section>
 
@@ -23,7 +23,7 @@ function App() {
         </section>
       </Box>
 
-      <Box id="work" style={{ paddingBlock: "10vh" }}>
+      <Box id="work" style={{ paddingBlock: "0vh" }}>
         <section style={{ color: "white" }}>
           <Work></Work>
         </section>

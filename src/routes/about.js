@@ -24,8 +24,8 @@ function About() {
   };
 
   return (
-    <Ctn>
-      <Row xs={10}>
+    <Ctn >
+      <Row style={{ marginLeft:"0px"}}>
         <Col xs={11} sm={8}>
           <p className="aboutme" style={{ fontSize: "2.3vh" }}>
             Hi! My name is Gourav and I love building apps. My spcialization is
@@ -40,7 +40,7 @@ function About() {
           <p style={{ fontSize: "120%" }}>Here are few of my specialities :</p>
           <Ctn>
             <Row xs={2}>
-              <Col item sm={3}>
+              <Col style={{ marginLeft: "-4vh", marginRight:"-10vw"}}>
                 <ul>
                   <li>Java</li>
                   <li>Kotlin</li>
@@ -50,15 +50,15 @@ function About() {
                   <li>C & C++</li>
                 </ul>
               </Col>
-              <Col item sm={3}>
-                <ul>
+              <Col>
+                <ul style={{ marginLeft: "-2vw"}}>
                   <li>Android SDK</li>
                   <li>Node.js</li>
                   <li>Express.js</li>
-                  <li>MySQL</li>
-                  <li>PostreSQL</li>
                   <li>Flask</li>
                   <li>Flutter</li>
+                  <li>MySQL</li>
+                  <li>PostreSQL</li>
                   <li>Firebase</li>
                 </ul>
               </Col>
