@@ -13,7 +13,7 @@ function App() {
     <React.Fragment>
       <CustomNavbar />
 
-      <section id="intro" style={{ height: "100vh", color: "white" }}>
+      <section id="intro" style={{ height: "55vh", color: "white" }}>
         <Home></Home>
       </section>
 
