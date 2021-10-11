@@ -1,0 +1,42 @@
+.Intro p {
+  margin-block: 0;
+  width: 100%;
+}
+
+.intro-p1 {
+  font-size: 1.4rem;
+}
+
+.intro-p2 {
+  font-size: 1.6rem;
+  color: rgb(240, 255, 217);
+}
+
+.intro-p3 {
+  font-size: 4rem;
+  color: greenyellow;
+}
+
+.intro-p4 {
+  line-height: 100%;
+  font-size: 6rem;
+}
+
+@media (orientation: portrait) {
+  .intro-p1 {
+    font-size: .9rem;
+  }
+
+  .intro-p2 {
+    font-size: 1.1rem;
+  }
+
+  .intro-p3 {
+    font-size: 1.8rem;
+  }
+
+  .intro-p4 {
+    line-height: 100%;
+    font-size: 2.4rem;
+  }
+}

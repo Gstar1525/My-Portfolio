@@ -50,8 +50,8 @@ class CustomNavbar extends Component {
       >
         <Navbar.Toggle
           style={{
-            backgroundColor: "#6f00ff",
-            borderColor: "black",
+            backgroundColor: "#2F4E00",
+            borderColor: "white",
             borderWidth: "1.6px",
           }}
           aria-controls="responsive-navbar-nav"

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="container">
       <CustomNavbar />
-      <section id="intro" style={{ height: "60%", color: "white" }}>
+      <section id="intro" style={{color: "white" }}>
         <Home></Home>
       </section>
 
