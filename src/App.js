@@ -1,23 +1,22 @@
 import React from "react";
 import CustomNavbar from "./components/customnavbar";
-import Work from "./routes/work";
-import Contact from "./routes/contact";
-import Experience from "./routes/experience";
+// import Work from "./routes/work";
+// import Contact from "./routes/contact";
+// import Experience from "./routes/experience";
 import Home from "./routes/home";
-import About from "./routes/about";
+// import About from "./routes/about";
 import "./styles/app.css";
-import { Box } from "@material-ui/core";
+// import { Box } from "@material-ui/core";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="container">
       <CustomNavbar />
-
-      <section id="intro" style={{ height: "60vh", color: "white" }}>
+      <section id="intro" style={{ height: "60%", color: "white" }}>
         <Home></Home>
       </section>
 
-      <Box id="about" style={{ paddingBlock: "20vh" }}>
+      {/* <Box id="about" style={{ paddingBlock: "20vh" }}>
         <section style={{ color: "white" }}>
           <About></About>
         </section>
@@ -38,8 +37,8 @@ function App() {
         <section style={{ color: "white" }}>
           <Contact></Contact>
         </section>
-      </Box>
-    </React.Fragment>
+      </Box> */}
+    </div>
   );
 }
 
