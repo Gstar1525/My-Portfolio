@@ -42,7 +42,7 @@ class CustomNavbar extends Component {
       <Navbar
         fixed="top"
         collapseOnSelect
-        expand="lg"
+        expand="sm"
         variant="dark"
         className={classNames("navbar", {
           "navbar--hidden": !this.state.visible,
@@ -50,8 +50,8 @@ class CustomNavbar extends Component {
       >
         <Navbar.Toggle
           style={{
-            backgroundColor: "#2F4E00",
-            borderColor: "white",
+            backgroundColor: "black",
+            borderColor: "greenyellow",
             borderWidth: "1.6px",
           }}
           aria-controls="responsive-navbar-nav"

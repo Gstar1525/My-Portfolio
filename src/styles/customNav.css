@@ -11,21 +11,49 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 .nav-link {
-  background-color: #2F4E00 !important;
-  padding-inline: 1.5rem !important;
-  padding-block: 1rem !important;
+  padding-block: 0.8em !important;
   margin-top: 1rem !important;
   margin-inline: 1rem !important;
-  color: white !important;
+  color: yellowgreen !important;
   border: solid 1.8px white !important;
   border-radius: 10px;
-  width: 10rem;
+  width: 8em;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
 }
 
 .nav-item :hover {
-  color: rgb(142, 255, 142) !important;
+  color: yellowgreen !important;
+  border: solid 1.8px yellowgreen !important;
   cursor: pointer !important;
+}
+
+@media (max-width: 575px) {
+  .navbar-collapse {
+    background-color: yellowgreen;
+    margin-top: 1em !important;
+    width: 50% !important;
+  }
+  .nav-link {
+    padding-block: 1em !important;
+    color: black !important;
+    border: none !important;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .nav-item {
+    border-width: 0 0 5px 0; /* top right bottom left */
+    border-style: solid;
+    border-color: black;
+    margin-top: -.5em !important;
+    padding-bottom: .5em !important;
+    font-size: 1rem !important;
+  }
+  .nav-item :hover {
+    color: white !important;
+    border: none !important;
+    cursor: pointer !important;
+  }
 }
