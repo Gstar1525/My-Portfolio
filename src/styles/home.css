@@ -9,7 +9,7 @@
 
 .intro-p2 {
   font-size: 1.6rem;
-  color: rgb(222 255 171);
+  color: #DEFFAB;
 }
 
 .intro-p3 {
@@ -20,6 +20,7 @@
 .intro-p4 {
   line-height: 100%;
   font-size: 6rem;
+  color: white;
 }
 
 @media (orientation: portrait) {

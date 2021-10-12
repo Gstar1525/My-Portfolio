@@ -14,7 +14,7 @@ import "../styles/socialFooter.css"
 export default function SocialFooter(){
     return(
         <div >
-            <h3 style={{ textAlign:"center" }} >Contact Me</h3>
+            <h3 style={{ textAlign:"center", color:"white" }} >Contact Me</h3>
             <Row style={{ alignSelf:"center" }} xs={5} sm={5}>
                 <Col>
                     <a href="https://www.github.com/gstar1525" className="github social">

@@ -1,42 +1,13 @@
-
 .container {
   width: 100% !important;
-  padding: 0em 1em 0em 1em!important;
+  padding: 0em 1em 0em 1em !important;
   margin: auto !important;
 }
 
-.social-container {
-  padding: 25px 50px;
-}
-a.social {
-  margin-block: 5rem;
-  transition: transform 250ms;
-  display: inline-block;
-}
-
-a.social:hover {
-  transform: translateY(-2px);
+#about {
+  margin-block: 45vh;
+  padding-block: 10vh;
   color: white;
-}
-
-a.github {
-  color: #64ffda;
-}
-
-a.Envelope {
-  color: #64ffda;
-}
-
-a.LinkedIn {
-  color: #64ffda;
-}
-
-a.twitter {
-  color: #64ffda;
-}
-
-a.instagram {
-  color: #64ffda;
 }
 
 * {
@@ -44,4 +15,10 @@ a.instagram {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 575px) {
+  #about {
+    padding-block: 10vh;
+  }
 }

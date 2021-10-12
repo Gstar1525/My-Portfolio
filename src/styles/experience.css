@@ -1,18 +1,24 @@
 .vertical-timeline-element-title{
-    color: white !important;
+    color: yellowgreen !important;
 }
 .vertical-timeline-element-subtitle{
     color: white !important;
 }
 .vertical-timeline-element--work{
-    color: white !important;
+    color: yellowgreen !important;
+}
+
+.vertical-timeline-element-content{
+    box-shadow: none !important;
+    background-color: black !important;
+    border: 2px solid white !important;
 }
 
 .techStack{
-    color: white;
+    color: #DEFFAB;
 }
 
 .date{
-    color: black;
+    color: yellowgreen;
     font-weight: bolder !important;
 }

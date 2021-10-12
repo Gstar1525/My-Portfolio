@@ -1,43 +1,40 @@
 import React from "react";
 import CustomNavbar from "./components/customnavbar";
-// import Work from "./routes/work";
-// import Contact from "./routes/contact";
-// import Experience from "./routes/experience";
+import Work from "./routes/work";
+import Contact from "./routes/contact";
+import Experience from "./routes/experience";
 import Home from "./routes/home";
-// import About from "./routes/about";
+import About from "./routes/about";
 import "./styles/app.css";
-// import { Box } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 
 function App() {
   return (
     <div className="container">
       <CustomNavbar />
-      <section id="intro" style={{color: "white" }}>
+      <section id="intro">
         <Home></Home>
       </section>
 
-      {/* <Box id="about" style={{ paddingBlock: "20vh" }}>
-        <section style={{ color: "white" }}>
-          <About></About>
-        </section>
-      </Box>
-
-      <Box id="work" style={{ paddingBlock: "0vh" }}>
-        <section style={{ color: "white" }}>
+      <section id="about">
+        <About></About>
+      </section>
+      <Box id="work">
+        <section>
           <Work></Work>
         </section>
       </Box>
 
       <Box id="experience" style={{ paddingBlock: "20vh" }}>
-        <section style={{ color: "white" }}>
+        <section>
           <Experience></Experience>
         </section>
       </Box>
       <Box id="contact" style={{ paddingBlock: "20vh" }}>
-        <section style={{ color: "white" }}>
+        <section>
           <Contact></Contact>
         </section>
-      </Box> */}
+      </Box>
     </div>
   );
 }

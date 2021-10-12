@@ -12,6 +12,7 @@
 }
 .nav-link {
   padding-block: 0.8em !important;
+  background-color: black;
   margin-top: 1rem !important;
   margin-inline: 1rem !important;
   color: yellowgreen !important;
@@ -31,12 +32,13 @@
 
 @media (max-width: 575px) {
   .navbar-collapse {
-    background-color: yellowgreen;
+    background-color: greenyellow;
     margin-top: 1em !important;
     width: 50% !important;
   }
   .nav-link {
     padding-block: 1em !important;
+    background-color: greenyellow !important;
     color: black !important;
     border: none !important;
     text-align: left;
@@ -47,8 +49,8 @@
     border-width: 0 0 5px 0; /* top right bottom left */
     border-style: solid;
     border-color: black;
-    margin-top: -.5em !important;
-    padding-bottom: .5em !important;
+    margin-top: -0.5em !important;
+    padding-bottom: 0.5em !important;
     font-size: 1rem !important;
   }
   .nav-item :hover {
