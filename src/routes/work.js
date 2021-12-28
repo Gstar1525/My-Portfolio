@@ -47,7 +47,7 @@ function Work() {
         />
         <CustomCard
           title="Flask Website"
-          description="A website for android and tablet phones using Flask framework for playing Quiz with friends."
+          description="A website for mobile phones using Flask framework for playing Quiz with friends."
           url="https://github.com/Gstar1525/Flask-Website"
           thumbnail={flaskWebsite}
         />
