@@ -30,7 +30,7 @@ function Work() {
         <CustomCard
           title="Fee Manangement Software"
           description="A Desktop App to manage school fees and save the data in excel sheet for CRUD Operations."
-          url="https://github.com/Gstar1525/fee-management-system.jpg"
+          url="https://github.com/Gstar1525/fee-management-system"
           thumbnail={feeManage}
         />
         <CustomCard
